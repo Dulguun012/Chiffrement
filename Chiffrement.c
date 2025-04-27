@@ -20,22 +20,12 @@
 *  Nom du fichier : Chiffrement.c                                             *
 *                                                                             *
 ******************************************************************************/
+
+#include "chiffrement.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <string.h>
-#include <wchar.h>
 #include <locale.h>
-
-#define TAILLE_MAX 100
-
-bool verifierTexte(wchar_t c[]);
-void chiffrerCesar(wchar_t c[], int cle);
-void dechiffrerCesar(wchar_t c[], int cle);
-void chiffrerVigenere(wchar_t message[], wchar_t cle[]);
-void dechiffrerVigenere(wchar_t message[], wchar_t cle[]);
-void afficherMessage(wchar_t c[]);
-void convertir(wchar_t text[]);
 
 
 int main() {
