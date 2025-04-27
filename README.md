@@ -42,7 +42,8 @@ Lancez le programme et suivez les instructions affichées dans le terminal pour 
 
 Voici un aperçu des principaux fichiers du projet :
 
-- **`chiffrer.c`** : Contient le code source du programme avec les fonctions de chiffrement (César et Vigenère) et la gestion des caractères accentués.
+- **`chiffrement.c`** : Contient le code source du programme avec les fonctions de chiffrement (César et Vigenère) et la gestion des caractères accentués.
+- **`chiffrement.h`** : Contient les entêtes des fonctions utilisées dans le fichier **chiffrement.c**. 
 - **`Makefile`** : Script de compilation automatique, permettant de créer facilement l'exécutable.
 - **`README.md`** : Documentation du projet, contenant les informations sur la compilation, l'exécution et l'organisation du code.
 
